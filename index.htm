@@ -8,23 +8,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body class="bg-[#ebe8db]">
-    <!-- Responsive Navigation -->
+    
     <nav class="sticky top-0 z-50 bg-[#cec495] rounded-lg mb-10 md:mb-80 px-4 md:px-6">
         <div class="flex items-center justify-between py-4">
-            <!-- Logo Section -->
+            
             <h1 class="font-bold text-3xl md:text-5xl font-mono cursor-pointer hover:text-yellow-50 hover:animate-pulse flex items-center gap-2">
                 <img src="reading-book.png" alt="Logo" class="w-8 md:w-12">
                 <a href="#home">JESEKIEL</a>
             </h1>
 
-            <!-- Mobile Menu Button -->
+            
             <button class="md:hidden p-2" id="burger">
                 <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"/>
                 </svg>
             </button>
 
-            <!-- Navigation Links -->
+            
             <ul class="hidden md:flex items-center gap-8" id="menu">
                 <li class="nav-item">
                     <a href="#home" class="flex items-center gap-1 hover:text-yellow-50 hover:animate-bounce">
@@ -61,7 +61,7 @@
             </ul>
         </div>
 
-        <!-- Mobile Menu (Hidden by default) -->
+        
         <div class="md:hidden flex justify-center ">
             <ul class="hidden pb-4 space-y-4" id="mobile-menu">
                 <li><a href="#home" class="block hover:text-yellow-50">Home</a></li>
@@ -72,22 +72,20 @@
         </div>
     </nav>
 
-    <!-- Home Section -->
-    <section class="px-4 md:px-20 mb-20 md:mb-96 scroll-mt-[400px]" id="home">
+    
+    <section class="px-4 md:px-20 mb-20 md:mb-96 scroll-mt-[280px]" id="home">
         <div class="max-w-screen-lg ">
             <h1 class="text-4xl md:text-5xl font-bold">Hello, I am Jesekiel Amores!</h1>
             <h3 class="text-lg text-gray-500 pb-3 font-semibold"><i>from BSIT 2-2A</i></h3>
-            <h4 class="text-xl font-semibold">Welcome to my Website.</h4>
-            <p class="text-justify text-lg">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ex iusto, enim optio soluta 
-                accusantium ipsa harum neque expedita perspiciatis ut facere quod maxime veritatis iure autem! 
-                Odio animi, iure dignissimos nihil dolor facere quis officia?
+            <h4 class="text-2xl font-semibold">Welcome to my Website.</h4>
+            <p class="text-justify text-lg pt-2">
+                This is my very first personal portfolio. You can learn more about me by scrolling down or clicking the navigation bar at the top. This portfolio is built using a combination of technologies to create a responsive and interactive experience. I used Tailwind CSS for styling, leveraging its utility-first approach to quickly design and customize a clean, modern layout that’s fully responsive across devices. The structure is built with HTML, ensuring clean, semantic code for accessibility and organization. To add interactivity and enhance the user experience, I incorporated a bit of JavaScript for smooth scrolling, dynamic content, and other interactive elements, making the site feel more engaging and functional.
             </p>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="px-4 md:px-20 mb-20 md:mb-96 scroll-mt-[300px]" id="about">
+    
+    <section class="px-4 md:px-20 mb-20 md:mb-96 scroll-mt-[170px]" id="about">
         <div class="max-w-screen-lg">
             <h1 class="text-3xl md:text-4xl font-bold mb-4">About Me</h1>
             <div class="space-y-4">
@@ -104,7 +102,7 @@
                 </p>
             </div>
 
-            <!-- Image Grid -->
+            
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                 <a href="educ.html" target="_blank" class="hover:opacity-75 transition-opacity">
                     <img src="edu.png" alt="Education" class="w-full rounded-lg">
@@ -119,10 +117,10 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    
     <section id="contact" class="bg-white px-4 md:px-20 py-10 mb-20 md:mb-96 scroll-mt-20">
         <div class="max-w-screen-lg">
-            <h1 class="text-3xl md:text-4xl font-bold mb-6">Contact me:</h1>
+            <h1 class="text-3xl md:text-4xl font-bold mb-6 underline">Click the Icons to Contact Me</h1>
             <div class="flex gap-4">
                 <a href="https://www.facebook.com/jesekiel.amores" target="_blank" class="hover:opacity-75 transition-opacity">
                     <img src="communication.png" alt="Facebook" class="w-10 md:w-12">
@@ -141,7 +139,7 @@
     </section>
 
     <script>
-        // Mobile menu toggle
+        
         const burger = document.getElementById('burger');
         const mobileMenu = document.getElementById('mobile-menu');
 
